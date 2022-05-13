@@ -291,19 +291,7 @@ text-align: justify;
 
 
 /* services section styling  */
-.services,.teams{
-    color: white;
-    background-color: black;
-}
-.services .title::before,
-.teams .title::before{
-background: white;
-}
-.services .title::after,
-.teams .title::after{
-    background: black;
-content: 'what i provide';
-}
+
 .services .serv-content .card{
 width: calc(33% - 20px) ;
 background: #222;
